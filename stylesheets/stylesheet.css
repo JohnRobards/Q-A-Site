@@ -16,7 +16,9 @@ h1 {
   text-align: center;
   color:black;
   font-size :30pt; }
-  
+p.intro {
+  color: black;
+  font-size: 12pt; }  
 p.question {
   color: white;
   font-weight: bold;
