@@ -3,66 +3,96 @@
   <head>
     <meta charset="UTF-8">
     <title>Q-A-site</title>
-    <!-- I will move the style to a seperate css file after the prototype stage-->
-    <style TYPE = "text/css">
-    		body {background-color: grey; padding: 30px;}
-		h1 {text-align: center; color: black; font-size :30pt;}
-		p.question {color: white; font-style: bold; font-size: 15pt;}
-		p.answer {color: black; font-size: 12pt;}
-		p.link {color: black; font-size 12pt;};
-
-	</style>
+    
+	
+	<link rel="stylesheet" type="text/css" href="stylesheets/normalize.css" media="screen">
+	<link rel="stylesheet" type="text/css" href="stylesheets/jquery.modal.css" media="screen">
+    <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen">
     
   </head>
-  <body>  <!--I still need to figure out how to create the links in a tabe, other than just using several ugly looking buttons in a row so
+  <body>  <!--I still need to figure out how to create the links in a table, other than just using several ugly looking buttons in a row so
   			I left that part out for now.-->
     <div class="main">
     <h1>Welcome to Washu!</h1>
     
     <br />
-    <p>This is a brief overview of life at Washington University in St. Louis. </p>
-    <p>It describes the general atmosphere of campus and also welcomes the new students.</p>
-    <p>It also lists a few important points about life here and describes the purpose of this FAQ.</p>
-    <p>It will most likely be around this length, though it may end up being a few lines/sentences longer</p>
-    <p>Space taken up, space taken up, space taken up, space taken up, space taken up.</p>
-    <p>Space taken up, space taken up, space taken up, space taken up, space taken up.</p>
-    <p>Space taken up, space taken up, space taken up, space taken up, space taken up.</p>
+    <p class = "intro">Just starting out at Washington University in St. Louis and not sure of what to do, 
+    where to eat, how to meet people with similar interests or what classes you should take? What about
+    what you're going to do with your life or any of the other myriad concerns you might have above
+	living in a new place, possibly for the first time? Well, you're in luck as we hope this FAQ can
+	be a comprehensive list of any questions our new students may have. Think we missed something? Please
+	scroll down to the bottom of the page and either give us a call or submit your question using the
+	button found there for an answer via email.</p>
+    <br />
+	<p class = "intro">Washington University in St. Louis strives to be an open and accepting community.
+	One that is built on trust, kindness, and learning. We accept people with a wide variety of interests
+	to our University in the hopes that everyone is able to find their own niche and be able to enjoy
+	themselves while they learn. Whether you're browsing this FAQ because you're a new freshman, foreign
+	exchange student, transfer student, or were just curious about some aspect of life on campus that
+	you didn't know much about, we promise to do our best to address your concerns and help. No matter
+	what your interests or worries are, WashU is here to help, so don't hesitate to ask us or your
+	classmates anything. We all love to help!</p>
     <hr />
     <br />
     
     <h2>New Student FAQ</h2>
     <br />
     
-    <p class="question">Example Question?</p>
+    <p class="question">How do I decide what courses to take?</p>
     <p class="answer">A brief answer to the question, possibly involving <a href="http://www.google.com/">links</a> to other pages, such as a link to <a href="http://www.stlmag.com/dining/best-restaurants-in-st.-louis-2014/">places to eat</a>.</p>
     <p class="link">A link at the end of some questions, for those questions that can't be answered adequately in a few lines, usually under a "more details" designation.</p>
     <br />
     
-    <p class="question">Example Question?</p>
+    <p class="question">I took AP courses in highschool, what do those count for?</p>
     <p class="answer">A brief answer to the question, possibly involving links to other pages, such as a link to places to eat.</p>
     <p class="link">A link at the end of some questions, for those questions that can't be answered adequately in a few lines.</p>
     <br />
     
-    <p class="question">Example Question?</p>
+    <p class="question">Where can I find a group of people who like to do "X" activity?</p>
     <p class="answer">A brief answer to the question, possibly involving links to other pages, such as a link to places to eat.</p>
     <p class="link">A link at the end of some questions, for those questions that can't be answered adequately in a few lines.</p>
     <br />
     
-    <p class="question">Example Question?</p>
+    <p class="question">Where can I eat on or around campus?</p>		<a><img src="imgs/img006.jpg"></a>
     <p class="answer">A brief answer to the question, possibly involving links to other pages, such as a link to places to eat.</p>
     <p class="link">A link at the end of some questions, for those questions that can't be answered adequately in a few lines.</p>
     <br />
     
-    <p class="question">Example Question?		<a><img src="imgs/img006.jpg"></a></p>
+    <p class="question">How do I make friends?</p>		
     <p class="answer">A brief answer to the question, possibly involving links to other pages, such as a link to places to eat.</p>
     <p class="link">A link at the end of some questions, for those questions that can't be answered adequately in a few lines.</p>
+	<br />
+	
+	<p class="question">I'm transfering from another university, what is different here than at my old school?</p>
+    <p class="answer">A brief answer to the question, possibly involving links to other pages, such as a link to places to eat.</p>
+    <p class="link">A link at the end of some questions, for those questions that can't be answered adequately in a few lines.</p>
+    <br />
+	
+	<p class="question">Where can I find a group of people who like to do "X" activity?</p>
+    <p class="answer">A brief answer to the question, possibly involving links to other pages, such as a link to places to eat.</p>
+    <p class="link">A link at the end of some questions, for those questions that can't be answered adequately in a few lines.</p>
+    <br />
+	
+	<p class="question">I'm having trouble with "X" class, where can I get more help?</p>
+    <p class="answer">A brief answer to the question, possibly involving <a href="http://www.google.com/">links</a> to other pages, such as a link to <a href="http://www.stlmag.com/dining/best-restaurants-in-st.-louis-2014/">places to eat</a>.</p>
+    <p class="link">A link at the end of some questions, for those questions that can't be answered adequately in a few lines, usually under a "more details" designation.</p>
+    <br />
+	
+	<p class="question">I have a medical prescription I need filled out, is there anywhere on campus that can help me with this?</p>
+    <p class="answer">A brief answer to the question, possibly involving <a href="http://www.google.com/">links</a> to other pages, such as a link to <a href="http://www.stlmag.com/dining/best-restaurants-in-st.-louis-2014/">places to eat</a>.</p>
+    <p class="link">A link at the end of some questions, for those questions that can't be answered adequately in a few lines, usually under a "more details" designation.</p>
+    <br />
+	
+	<p class="question">How do I make sure I have a good college experience?</p>
+    <p class="answer">A brief answer to the question, possibly involving <a href="http://www.google.com/">links</a> to other pages, such as a link to <a href="http://www.stlmag.com/dining/best-restaurants-in-st.-louis-2014/">places to eat</a>.</p>
+    <p class="link">A link at the end of some questions, for those questions that can't be answered adequately in a few lines, usually under a "more details" designation.</p>
     <hr />
     <br />
     
     <h2>Contact Information</h2>
-    <p>Contact information for followup questions will be here, including a place where students can come to get there questions answered.</p>
-    <p>Phone Number: 152-132-2512</p>
-    <p>Email: jsmith@wustl.edu</p>
+    <p class="contact">Address: </p>
+    <p class="contact">Phone Number: 152-132-2512</p>
+    <p class="contact">Email: newstudentFAQ@wustl.edu</p>
     
     
     <div id="img1" style="display:none;">
