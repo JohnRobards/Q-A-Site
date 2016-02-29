@@ -27,6 +27,10 @@ p.question {
   color: white;
   font-weight: bold;
   font-size: 15pt; }
+
+p.contact {
+  color: #666; }
+
   
 p.answer {
   color: black;
